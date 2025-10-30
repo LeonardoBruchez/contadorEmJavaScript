@@ -12,13 +12,13 @@ body{
 header{
   color: white;
   text-align: center;
-
-  & h1 {
-    margin-block: 1rem;
-  }
 }
 
-section{
+header h1 {
+  margin-block: 1rem;
+}
+
+section {
   background-color: white;
   border-radius: 0.625rem;
   padding: 0.8rem;
@@ -27,35 +27,41 @@ section{
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
   display: grid;
   gap: 1rem;
+}
 
-  & div {
-    display: grid;
-    grid-auto-flow: column;
-    width: 200px;
-  }
+section div {
+  display: grid;
+  grid-auto-flow: column;
+  width: 200px;
+}
 
+section input {
+  border-radius: 0.2rem;
+  outline: 1px solid black;
+  border: none;
+  margin-left: auto;
+  width: 130px;
+  padding-left: 0.3rem;
+}
 
-  & input {
-    border-radius: 0.2rem;
-    outline: 1px solid black;
-    border: none;
-    margin-left: auto;
-    width: 130px;
-    padding-left: 0.3rem;
-  }
+section button {
+  width: fit-content;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  cursor: pointer;
+}
 
-  & button {
-    width: fit-content;
-    padding: 0.6rem;
-    border-radius: 0.3rem;
-    border: none;
-    background-color: rgb(0, 132, 255);
-    color: white;
-    cursor: pointer;
-    &:hover{
-      background-color: rgb(48, 149, 243);
-    }
-  }
+section button:hover {
+  background-color: rgb(48, 149, 243);
+}
+
+section #res {
+  overflow-wrap: break-word;
+  min-width: 0;
+  line-height: 1.8;
 }
 
 footer{
