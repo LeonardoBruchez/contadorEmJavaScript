@@ -33,9 +33,9 @@ contador-em-javascript/
 
 ## 🛠️ Tecnologias Utilizadas
 
-!HTML5
-!CSS3
-!JavaScript
+**HTML5**
+**CSS3**
+**JavaScript**
 
 ## 🚀 Como Executar o Projeto
 
